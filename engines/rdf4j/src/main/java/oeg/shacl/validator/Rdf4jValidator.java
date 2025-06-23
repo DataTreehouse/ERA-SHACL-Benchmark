@@ -22,19 +22,23 @@ import org.eclipse.rdf4j.rio.WriterConfig;
 import org.eclipse.rdf4j.rio.helpers.BasicWriterSettings;
 import org.eclipse.rdf4j.sail.memory.MemoryStore;
 import org.eclipse.rdf4j.sail.shacl.ShaclSail;
+import org.eclipse.rdf4j.common.transaction.IsolationLevels;
+
 
 public class Rdf4jValidator {
 
     public static void validate(String DATA, String SHAPES, String REPORT) throws IOException {
 
         ShaclSail shaclSail = new ShaclSail(new MemoryStore());
-        
+        shaclSail.setValidationResultsLimitTotal(-1);
+        shaclSail.setValidationResultsLimitPerConstraint(-1);
+
         SailRepository sailRepository = new SailRepository(shaclSail);
         sailRepository.init();
         
         try (SailRepositoryConnection connection = sailRepository.getConnection()) {
 
-            connection.begin();
+            connection.begin(IsolationLevels.NONE, ShaclSail.TransactionSettings.ValidationApproach.Disabled);
             
             try (InputStream input = new BufferedInputStream(new FileInputStream(DATA))) {
             // add the RDF data from the inputstream directly to our database
@@ -47,7 +51,7 @@ public class Rdf4jValidator {
 
             connection.commit();
 
-            connection.begin();
+            connection.begin(IsolationLevels.NONE);
             try (InputStream inputShapes = new FileInputStream(SHAPES)) {
             // add the RDF data from the inputstream directly to our database
             	connection.add(inputShapes,"", RDFFormat.TURTLE, RDF4J.SHACL_SHAPE_GRAPH);

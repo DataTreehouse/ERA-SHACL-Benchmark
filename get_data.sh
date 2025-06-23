@@ -276,3 +276,7 @@ rm -r data/raw
 rm -r data/vocabularies
 
 echo "Done."
+
+# Install basic calculator
+# echo "Install basic calculator"
+# sudo apt install bc
