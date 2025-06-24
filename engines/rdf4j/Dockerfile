@@ -15,12 +15,9 @@ COPY . .
 # Make shell script executable
 RUN chmod +x entrypoint.sh
 
-# Command to run the cli application
-ENTRYPOINT ["./entrypoint.sh"]
-
-## Alternative
 ## Compile application
-# RUN mvn clean compile assembly:single
+RUN mvn clean package -DskipTests
+
 ## Command to run the compiled JAR
-# ENTRYPOINT ["java","-jar", "target/validator-0.0.1-SNAPSHOT-jar-with-dependencies.jar"]
+ENTRYPOINT ["java", "-Xmx32G" , "-Xms32G" , "-jar" , "target/validator-0.0.1-SNAPSHOT.jar"]
 
