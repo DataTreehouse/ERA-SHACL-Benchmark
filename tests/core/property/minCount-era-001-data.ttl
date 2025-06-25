@@ -1,0 +1,42 @@
+# minCount-era-001 valid resource
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://data.europa.eu/949/notApplicable> <http://data.europa.eu/949/opTypeGaugeChangeover>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://data.europa.eu/949/track> <http://data.europa.eu/949/functionalInfrastructure/tracks/66561e745d82516944e15ad7dba7b7fec8d9ec2a>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/949/OperationalPoint>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://data.europa.eu/949/canonicalURI> <http://data.europa.eu/949/functionalInfrastructure/operationalPoints/SEVma>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://www.w3.org/2000/01/rdf-schema#label> "Vilhelmina".
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://data.europa.eu/949/opName> "Vilhelmina".
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://data.europa.eu/949/uopid> "SEVma".
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://data.europa.eu/949/tafTAPCode> "SE04507".
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://data.europa.eu/949/opType> <http://data.europa.eu/949/concepts/op-types/rinf/20>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://data.europa.eu/949/locations/%2B16.6514/64.623>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://data.europa.eu/949/locations/%2B16.6514/64.623>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://data.europa.eu/949/hasAbstraction> <http://data.europa.eu/949/topology/netElements/SEVma>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://data.europa.eu/949/hashSource> "SE/SEVma/20/None_None".
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://data.europa.eu/949/inCountry> <http://publications.europa.eu/resource/authority/country/SWE>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://data.europa.eu/949/lineReference> <http://data.europa.eu/949/functionalInfrastructure/lineReferences/99_244.33>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://data.europa.eu/949/siding> <http://data.europa.eu/949/functionalInfrastructure/sidings/bffc24e542d6eed96964b53bedb75daccd62be21>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://data.europa.eu/949/siding> <http://data.europa.eu/949/functionalInfrastructure/sidings/0fa4f3acf006d1b4b9335264a7f2f5e8aa24a20b>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://data.europa.eu/949/siding> <http://data.europa.eu/949/functionalInfrastructure/sidings/b912679650cbd51151d309c91b64f9b14d76e160>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://data.europa.eu/949/siding> <http://data.europa.eu/949/functionalInfrastructure/sidings/fbef0b8b991dbd189e491e739b9e219dd83abc96>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/08406a7d4a515914e456268db99304767fa7c1bb> <http://data.europa.eu/949/siding> <http://data.europa.eu/949/functionalInfrastructure/sidings/cc797928dc25a282c4e559708b4e75a419246951>.
+# minCount-era-001 synthetic invalid resource
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://data.europa.eu/949/notApplicable> <http://data.europa.eu/949/opTypeGaugeChangeover>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://data.europa.eu/949/track> <http://data.europa.eu/949/functionalInfrastructure/tracks/0783a6c8ac7b42313b11c1b7c7684ef8a4eb06c1>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://data.europa.eu/949/track> <http://data.europa.eu/949/functionalInfrastructure/tracks/20a8dde7a65ca3514a1e2415d97e803067a92a8f>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/949/OperationalPoint>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://data.europa.eu/949/canonicalURI> <http://data.europa.eu/949/functionalInfrastructure/operationalPoints/SELnk>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://www.w3.org/2000/01/rdf-schema#label> "Lernacken".
+#removed
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://data.europa.eu/949/uopid> "SELnk".
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://data.europa.eu/949/tafTAPCode> "SE10313".
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://data.europa.eu/949/opType> <http://data.europa.eu/949/concepts/op-types/rinf/80>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://data.europa.eu/949/locations/%2B12.9055/55.5656>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://data.europa.eu/949/locations/%2B12.9055/55.5656>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://data.europa.eu/949/hasAbstraction> <http://data.europa.eu/949/topology/netElements/SELnk>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://data.europa.eu/949/hashSource> "SE/SELnk/80/None_None".
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://data.europa.eu/949/inCountry> <http://publications.europa.eu/resource/authority/country/SWE>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://data.europa.eu/949/lineReference> <http://data.europa.eu/949/functionalInfrastructure/lineReferences/24_281.997>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://data.europa.eu/949/siding> <http://data.europa.eu/949/functionalInfrastructure/sidings/f74b02b023343995a6d855a71d736c7a10707239>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://data.europa.eu/949/siding> <http://data.europa.eu/949/functionalInfrastructure/sidings/b7a4eb69c1643bb6ee64399d180cb8730b592de1>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://data.europa.eu/949/siding> <http://data.europa.eu/949/functionalInfrastructure/sidings/65a4e4217495224a5b28f4f2eabc899b14ab6c11>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> <http://data.europa.eu/949/siding> <http://data.europa.eu/949/functionalInfrastructure/sidings/720c0c27eede1bb9ea3ad695fba2c8e09be4b203>.

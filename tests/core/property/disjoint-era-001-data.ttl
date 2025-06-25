@@ -1,0 +1,35 @@
+# disjoint-era-001-data valid resources
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/395e932c196ccac8430d6a1f9dc65c845e41a4f0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/949/SectionOfLine>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/395e932c196ccac8430d6a1f9dc65c845e41a4f0> <http://data.europa.eu/949/canonicalURI> <http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/254000-1_FR0000002651_FR0000000308>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/395e932c196ccac8430d6a1f9dc65c845e41a4f0> <http://data.europa.eu/949/imCode> "0087".
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/395e932c196ccac8430d6a1f9dc65c845e41a4f0> <http://data.europa.eu/949/lineNationalId> <http://data.europa.eu/949/functionalInfrastructure/nationalLines/FR/254000-1>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/395e932c196ccac8430d6a1f9dc65c845e41a4f0> <http://data.europa.eu/949/length> "278"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/395e932c196ccac8430d6a1f9dc65c845e41a4f0> <http://data.europa.eu/949/lengthOfSectionOfLine> "0.278"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/395e932c196ccac8430d6a1f9dc65c845e41a4f0> <http://data.europa.eu/949/solNature> <http://data.europa.eu/949/concepts/sol-natures/rinf/10>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/395e932c196ccac8430d6a1f9dc65c845e41a4f0> <http://data.europa.eu/949/hasAbstraction> <http://data.europa.eu/949/topology/netElements/254000-1_FR0000002651_FR0000000308>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/395e932c196ccac8430d6a1f9dc65c845e41a4f0> <http://data.europa.eu/949/validityStartDate> "1800-01-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/395e932c196ccac8430d6a1f9dc65c845e41a4f0> <http://data.europa.eu/949/validityEndDate> "2382-01-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/395e932c196ccac8430d6a1f9dc65c845e41a4f0> <http://data.europa.eu/949/hashSource> "254000-1_FR0000002651_FR0000000308/1800-01-01_2382-01-01".
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/395e932c196ccac8430d6a1f9dc65c845e41a4f0> <http://data.europa.eu/949/inCountry> <http://publications.europa.eu/resource/authority/country/FRA>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/395e932c196ccac8430d6a1f9dc65c845e41a4f0> <http://data.europa.eu/949/opStart> <http://data.europa.eu/949/functionalInfrastructure/operationalPoints/FR0000002651>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/395e932c196ccac8430d6a1f9dc65c845e41a4f0> <http://data.europa.eu/949/opEnd> <http://data.europa.eu/949/functionalInfrastructure/operationalPoints/FR0000000308>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/395e932c196ccac8430d6a1f9dc65c845e41a4f0> <http://www.w3.org/2000/01/rdf-schema#label> "Valenciennes-Bif 254000/267000".
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/395e932c196ccac8430d6a1f9dc65c845e41a4f0> <http://data.europa.eu/949/track> <http://data.europa.eu/949/functionalInfrastructure/tracks/5077f13fc129b5db2ce88892406be23a7c2d358c>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/949/SectionOfLine>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> <http://data.europa.eu/949/canonicalURI> <http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/262000-1_FR0000001897_FR0000002651>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> <http://data.europa.eu/949/imCode> "0087".
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> <http://data.europa.eu/949/lineNationalId> <http://data.europa.eu/949/functionalInfrastructure/nationalLines/FR/262000-1>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> <http://data.europa.eu/949/length> "131"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> <http://data.europa.eu/949/lengthOfSectionOfLine> "0.131"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> <http://data.europa.eu/949/solNature> <http://data.europa.eu/949/concepts/sol-natures/rinf/10>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> <http://data.europa.eu/949/hasAbstraction> <http://data.europa.eu/949/topology/netElements/262000-1_FR0000001897_FR0000002651>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> <http://data.europa.eu/949/validityStartDate> "1800-01-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> <http://data.europa.eu/949/validityEndDate> "2382-01-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> <http://data.europa.eu/949/hashSource> "262000-1_FR0000001897_FR0000002651/1800-01-01_2382-01-01".
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> <http://data.europa.eu/949/inCountry> <http://publications.europa.eu/resource/authority/country/FRA>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> <http://data.europa.eu/949/opStart> <http://data.europa.eu/949/functionalInfrastructure/operationalPoints/FR0000001897>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> <http://data.europa.eu/949/opEnd> <http://data.europa.eu/949/functionalInfrastructure/operationalPoints/FR0000002651>.
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> <http://www.w3.org/2000/01/rdf-schema#label> "Bif 263300/262000-Valenciennes".
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> <http://data.europa.eu/949/track> <http://data.europa.eu/949/functionalInfrastructure/tracks/3f08571368fb2e9001446e977fc3b0be35ac5d4c>.
+# Synthetic invalid resource
+<http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> <http://data.europa.eu/949/opEnd> <http://data.europa.eu/949/functionalInfrastructure/operationalPoints/FR0000001897>.
