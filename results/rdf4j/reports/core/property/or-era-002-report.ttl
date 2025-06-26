@@ -14,14 +14,14 @@
       sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4>;
       rsx:shapesGraph rdf4j:SHACLShapeGraph;
       sh:value "";
-      sh:resultPath _:5b754f9063bdd95d;
+      sh:resultPath _:4fff602d957334a1;
       sh:sourceConstraintComponent sh:OrConstraintComponent;
       sh:resultSeverity sh:Violation;
       sh:sourceShape <http://data.europa.eu/949/shapes/PhaseInfoDistanceType>
     ] .
 
 <http://data.europa.eu/949/shapes/PhaseInfoDistanceType> a sh:PropertyShape;
-  sh:path _:5b754f9063bdd95d;
+  sh:path _:4fff602d957334a1;
   sh:or ([ a sh:NodeShape;
         sh:hasValue "MIN"
       ] [ a sh:NodeShape;
