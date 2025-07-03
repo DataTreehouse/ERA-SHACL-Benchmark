@@ -51,7 +51,7 @@ public class Rdf4jValidator {
 			try (InputStream input = new BufferedInputStream(new FileInputStream(DATA))) {
 				// add the RDF data from the inputstream directly to our database
 				long startLoadTime = System.nanoTime();
-				connection.add(input, "", RDFFormat.TURTLE);
+				connection.add(input, "http://example.com/", RDFFormat.TURTLE);
 				long estimatedLoadTime = System.nanoTime() - startLoadTime;
 				System.out.println("Data graph size: " + connection.size());
 				System.out.println("Load time: " + TimeUnit.NANOSECONDS.toMillis(estimatedLoadTime) / 1000.0);
@@ -62,7 +62,7 @@ public class Rdf4jValidator {
 			connection.begin(IsolationLevels.NONE);
 			try (InputStream inputShapes = new FileInputStream(SHAPES)) {
 				// add the RDF data from the inputstream directly to our database
-				connection.add(inputShapes, "", RDFFormat.TURTLE, RDF4J.SHACL_SHAPE_GRAPH);
+				connection.add(inputShapes, "http://example.com/", RDFFormat.TURTLE, RDF4J.SHACL_SHAPE_GRAPH);
 				try (RepositoryResult<Statement> statements = connection.getStatements(null, null, null, RDF4J.SHACL_SHAPE_GRAPH)) {
 					System.out.println("Shapes graph size: " + statements.stream().count());
 				}

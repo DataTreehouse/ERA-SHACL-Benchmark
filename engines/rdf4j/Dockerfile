@@ -12,9 +12,6 @@ WORKDIR /rdf4j
 # Copy the rest of the application code into the container
 COPY . . 
 
-# Make shell script executable
-RUN chmod +x entrypoint.sh
-
 ## Compile application
 RUN mvn clean package -DskipTests
 
