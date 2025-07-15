@@ -1,11 +1,11 @@
-<urn:uuid:8f515bb0-2db4-11b2-805c-0242ac110003/8f515bb5-2db4-11b2-805c-0242ac110003>
-        a       <http://rdfunit.aksw.org/ns/core#TestCaseResult> , <http://www.w3.org/ns/shacl#ValidationResult> ;
+<urn:uuid:98dcf7da-2dc2-11b2-80d1-f2b60ed33c14/98dcf7df-2dc2-11b2-80d1-f2b60ed33c14>
+        a       <http://www.w3.org/ns/shacl#ValidationResult> , <http://rdfunit.aksw.org/ns/core#TestCaseResult> ;
         <http://purl.org/dc/terms/date>
-                "2025-05-06T14:23:46.598Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2025-07-15T09:06:35.529Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <http://rdfunit.aksw.org/ns/core#testCase>
-                <urn:uuid:8f515bb1-2db4-11b2-805c-0242ac110003> ;
+                <urn:uuid:98dcf7dd-2dc2-11b2-80d1-f2b60ed33c14> ;
         <http://www.w3.org/ns/prov#wasGeneratedBy>
-                <urn:uuid:8f515bb0-2db4-11b2-805c-0242ac110003> ;
+                <urn:uuid:98dcf7da-2dc2-11b2-80d1-f2b60ed33c14> ;
         <http://www.w3.org/ns/shacl#focusNode>
                 <http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> ;
         <http://www.w3.org/ns/shacl#message>
@@ -23,8 +23,8 @@
         <http://www.w3.org/ns/shacl#value>
                 <http://data.europa.eu/949/functionalInfrastructure/sectionsOfLine/a4fb948e261140ec29d804ca771987dc424aeea5> .
 
-<urn:uuid:8f515bb0-2db4-11b2-805c-0242ac110003>
-        a       <http://www.w3.org/ns/prov#Activity> , <http://rdfunit.aksw.org/ns/core#TestExecution> , <http://www.w3.org/ns/shacl#ValidationReport> ;
+<urn:uuid:98dcf7da-2dc2-11b2-80d1-f2b60ed33c14>
+        a       <http://rdfunit.aksw.org/ns/core#TestExecution> , <http://www.w3.org/ns/shacl#ValidationReport> , <http://www.w3.org/ns/prov#Activity> ;
         <http://rdfunit.aksw.org/ns/core#executionType>
                 "shaclTestCaseResult" ;
         <http://rdfunit.aksw.org/ns/core#source>
@@ -42,9 +42,9 @@
         <http://rdfunit.aksw.org/ns/core#totalIndividualErrors>
                 "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
         <http://www.w3.org/ns/prov#endedAtTime>
-                "2025-05-06T14:23:46.609Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2025-07-15T09:06:35.53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <http://www.w3.org/ns/prov#startedAtTime>
-                "2025-05-06T14:23:46.555Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2025-07-15T09:06:35.455Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <http://www.w3.org/ns/prov#wasAssociatedWith>
                 <../data/core/node/disjoint-era-001.ttl> ;
         <http://www.w3.org/ns/prov#wasStartedBy>
@@ -52,4 +52,4 @@
         <http://www.w3.org/ns/shacl#conforms>
                 false ;
         <http://www.w3.org/ns/shacl#result>
-                <urn:uuid:8f515bb0-2db4-11b2-805c-0242ac110003/8f515bb5-2db4-11b2-805c-0242ac110003> .
+                <urn:uuid:98dcf7da-2dc2-11b2-80d1-f2b60ed33c14/98dcf7df-2dc2-11b2-80d1-f2b60ed33c14> .

@@ -1,11 +1,11 @@
-<urn:uuid:8f6bb1fe-2db4-11b2-80cc-0242ac110003/8f6bb203-2db4-11b2-80cc-0242ac110003>
-        a       <http://rdfunit.aksw.org/ns/core#TestCaseResult> , <http://www.w3.org/ns/shacl#ValidationResult> ;
+<urn:uuid:98fb5478-2dc2-11b2-80c3-9e547b255a1c/98fb547d-2dc2-11b2-80c3-9e547b255a1c>
+        a       <http://www.w3.org/ns/shacl#ValidationResult> , <http://rdfunit.aksw.org/ns/core#TestCaseResult> ;
         <http://purl.org/dc/terms/date>
-                "2025-05-06T14:26:39.213Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2025-07-15T09:09:54.514Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <http://rdfunit.aksw.org/ns/core#testCase>
-                <urn:uuid:8f6bb201-2db4-11b2-80cc-0242ac110003> ;
+                <urn:uuid:98fb547b-2dc2-11b2-80c3-9e547b255a1c> ;
         <http://www.w3.org/ns/prov#wasGeneratedBy>
-                <urn:uuid:8f6bb1fe-2db4-11b2-80cc-0242ac110003> ;
+                <urn:uuid:98fb5478-2dc2-11b2-80c3-9e547b255a1c> ;
         <http://www.w3.org/ns/shacl#focusNode>
                 <http://data.europa.eu/949/functionalInfrastructure/phaseInfo/ESL984610276_ESA0849_II%20MIXTA_ES08207_length402switchoffbreakerYlowerpantographN> ;
         <http://www.w3.org/ns/shacl#message>
@@ -25,8 +25,8 @@
         <http://www.w3.org/ns/shacl#value>
                 ""^^<http://www.w3.org/2001/XMLSchema#integer> .
 
-<urn:uuid:8f6bb1fe-2db4-11b2-80cc-0242ac110003>
-        a       <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/shacl#ValidationReport> , <http://rdfunit.aksw.org/ns/core#TestExecution> ;
+<urn:uuid:98fb5478-2dc2-11b2-80c3-9e547b255a1c>
+        a       <http://www.w3.org/ns/prov#Activity> , <http://rdfunit.aksw.org/ns/core#TestExecution> , <http://www.w3.org/ns/shacl#ValidationReport> ;
         <http://rdfunit.aksw.org/ns/core#executionType>
                 "shaclTestCaseResult" ;
         <http://rdfunit.aksw.org/ns/core#source>
@@ -44,9 +44,9 @@
         <http://rdfunit.aksw.org/ns/core#totalIndividualErrors>
                 "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
         <http://www.w3.org/ns/prov#endedAtTime>
-                "2025-05-06T14:26:39.214Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2025-07-15T09:09:54.516Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <http://www.w3.org/ns/prov#startedAtTime>
-                "2025-05-06T14:26:39.172Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2025-07-15T09:09:54.442Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <http://www.w3.org/ns/prov#wasAssociatedWith>
                 <../data/core/property/datatype-era-002.ttl> ;
         <http://www.w3.org/ns/prov#wasStartedBy>
@@ -54,4 +54,4 @@
         <http://www.w3.org/ns/shacl#conforms>
                 false ;
         <http://www.w3.org/ns/shacl#result>
-                <urn:uuid:8f6bb1fe-2db4-11b2-80cc-0242ac110003/8f6bb203-2db4-11b2-80cc-0242ac110003> .
+                <urn:uuid:98fb5478-2dc2-11b2-80c3-9e547b255a1c/98fb547d-2dc2-11b2-80c3-9e547b255a1c> .

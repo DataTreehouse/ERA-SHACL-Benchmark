@@ -1,0 +1,82 @@
+<urn:uuid:98f933a0-2dc2-11b2-80bb-3e2dadc9c0b3>
+        a       <http://www.w3.org/ns/shacl#ValidationReport> , <http://www.w3.org/ns/prov#Activity> , <http://rdfunit.aksw.org/ns/core#TestExecution> ;
+        <http://rdfunit.aksw.org/ns/core#executionType>
+                "shaclTestCaseResult" ;
+        <http://rdfunit.aksw.org/ns/core#source>
+                <custom> ;
+        <http://rdfunit.aksw.org/ns/core#testsError>
+                "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://rdfunit.aksw.org/ns/core#testsFailed>
+                "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://rdfunit.aksw.org/ns/core#testsRun>
+                "4"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://rdfunit.aksw.org/ns/core#testsSuceedded>
+                "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://rdfunit.aksw.org/ns/core#testsTimeout>
+                "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://rdfunit.aksw.org/ns/core#totalIndividualErrors>
+                "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.w3.org/ns/prov#endedAtTime>
+                "2025-07-15T09:09:40.656Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.w3.org/ns/prov#startedAtTime>
+                "2025-07-15T09:09:40.496Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.w3.org/ns/prov#wasAssociatedWith>
+                <../data/core/property/connected-property-era-001.ttl> ;
+        <http://www.w3.org/ns/prov#wasStartedBy>
+                <http://localhost/> ;
+        <http://www.w3.org/ns/shacl#conforms>
+                false ;
+        <http://www.w3.org/ns/shacl#result>
+                <urn:uuid:98f933a0-2dc2-11b2-80bb-3e2dadc9c0b3/98f933a9-2dc2-11b2-80bb-3e2dadc9c0b3> , <urn:uuid:98f933a0-2dc2-11b2-80bb-3e2dadc9c0b3/98f933aa-2dc2-11b2-80bb-3e2dadc9c0b3> .
+
+<urn:uuid:98f933a0-2dc2-11b2-80bb-3e2dadc9c0b3/98f933a9-2dc2-11b2-80bb-3e2dadc9c0b3>
+        a       <http://www.w3.org/ns/shacl#ValidationResult> , <http://rdfunit.aksw.org/ns/core#TestCaseResult> ;
+        <http://purl.org/dc/terms/date>
+                "2025-07-15T09:09:40.64Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://rdfunit.aksw.org/ns/core#testCase>
+                <urn:uuid:98f933a1-2dc2-11b2-80bb-3e2dadc9c0b3> ;
+        <http://www.w3.org/ns/prov#wasGeneratedBy>
+                <urn:uuid:98f933a0-2dc2-11b2-80bb-3e2dadc9c0b3> ;
+        <http://www.w3.org/ns/shacl#focusNode>
+                <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+        <http://www.w3.org/ns/shacl#message>
+                "protectionLegacySystem: The instance of Track has a protectionLegacySystem value that is not a SKOS concept." ;
+        <http://www.w3.org/ns/shacl#resultMessage>
+                "protectionLegacySystem: The instance of Track has a protectionLegacySystem value that is not a SKOS concept." ;
+        <http://www.w3.org/ns/shacl#resultPath>
+                <http://data.europa.eu/949/protectionLegacySystem> ;
+        <http://www.w3.org/ns/shacl#resultSeverity>
+                <http://www.w3.org/ns/shacl#violation> ;
+        <http://www.w3.org/ns/shacl#severity>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#ERROR> ;
+        <http://www.w3.org/ns/shacl#sourceConstraintComponent>
+                <http://www.w3.org/ns/shacl#ClassConstraintComponent> ;
+        <http://www.w3.org/ns/shacl#sourceShape>
+                <http://data.europa.eu/949/shapes/ProtectionLegacySystemSKOS> ;
+        <http://www.w3.org/ns/shacl#value>
+                <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> .
+
+<urn:uuid:98f933a0-2dc2-11b2-80bb-3e2dadc9c0b3/98f933aa-2dc2-11b2-80bb-3e2dadc9c0b3>
+        a       <http://rdfunit.aksw.org/ns/core#TestCaseResult> , <http://www.w3.org/ns/shacl#ValidationResult> ;
+        <http://purl.org/dc/terms/date>
+                "2025-07-15T09:09:40.653Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://rdfunit.aksw.org/ns/core#testCase>
+                <urn:uuid:98f933a5-2dc2-11b2-80bb-3e2dadc9c0b3> ;
+        <http://www.w3.org/ns/prov#wasGeneratedBy>
+                <urn:uuid:98f933a0-2dc2-11b2-80bb-3e2dadc9c0b3> ;
+        <http://www.w3.org/ns/shacl#focusNode>
+                <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+        <http://www.w3.org/ns/shacl#message>
+                "protectionLegacySystem: The instance of Track has a protectionLegacySystem value that is not one of the predefined values and cannot be converted into a SKOS concept on this list: http://data.europa.eu/949/concepts/train-protection-legacy-systems/TrainProtectionLegacySystems." ;
+        <http://www.w3.org/ns/shacl#resultMessage>
+                "protectionLegacySystem: The instance of Track has a protectionLegacySystem value that is not one of the predefined values and cannot be converted into a SKOS concept on this list: http://data.europa.eu/949/concepts/train-protection-legacy-systems/TrainProtectionLegacySystems." ;
+        <http://www.w3.org/ns/shacl#resultPath>
+                <http://www.w3.org/2004/02/skos/core#inScheme> ;
+        <http://www.w3.org/ns/shacl#resultSeverity>
+                <http://www.w3.org/ns/shacl#violation> ;
+        <http://www.w3.org/ns/shacl#severity>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#ERROR> ;
+        <http://www.w3.org/ns/shacl#sourceConstraintComponent>
+                <http://www.w3.org/ns/shacl#HasValueConstraintComponent> ;
+        <http://www.w3.org/ns/shacl#sourceShape>
+                <http://data.europa.eu/949/shapes/ProtectionLegacySystemSKOSinScheme> .

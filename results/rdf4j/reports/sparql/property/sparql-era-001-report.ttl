@@ -13,16 +13,17 @@
   sh:result [ a sh:ValidationResult;
       sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4>;
       rsx:shapesGraph rdf4j:SHACLShapeGraph;
-      sh:value <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4>;
+      sh:resultPath <http://data.europa.eu/949/protectionLegacySystem>;
       sh:sourceConstraint <http://data.europa.eu/949/shapes/ProtectionLegacySystemSKOS>;
       sh:sourceConstraintComponent sh:SPARQLConstraintComponent;
       sh:resultSeverity sh:Violation;
       sh:sourceShape <http://data.europa.eu/949/shapes/trackShape>
     ] .
 
-<http://data.europa.eu/949/shapes/trackShape> a sh:NodeShape;
+<http://data.europa.eu/949/shapes/trackShape> a sh:PropertyShape;
   sh:targetNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39>,
     <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4>;
+  sh:path <http://data.europa.eu/949/protectionLegacySystem>;
   sh:sparql <http://data.europa.eu/949/shapes/ProtectionLegacySystemSKOS> .
 
 <http://data.europa.eu/949/shapes/ProtectionLegacySystemSKOS> a sh:SPARQLConstraint;
@@ -32,8 +33,8 @@
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     SELECT $this  ?concept
     WHERE {
-        $this era:protectionLegacySystem ?concept .
-        era:protectionLegacySystem era:inSkosConceptScheme ?conceptScheme .
+        $this $PATH ?concept .
+        $PATH era:inSkosConceptScheme ?conceptScheme .
 		FILTER NOT EXISTS{         
   			?concept skos:inScheme ?conceptScheme .
 		}

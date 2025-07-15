@@ -7,7 +7,72 @@ _:autos574 a sh:ValidationReport;
            sh:conforms false;
            sh:result [a sh:ValidationResult ; 
                       sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ; 
+                      sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ; 
                       sh:value <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ; 
+                      sh:sourceConstraintComponent sh:SPARQLConstraintComponent ; 
+                      sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ; 
+                      sh:resultSeverity sh:Violation ; 
+                      sh:sourceConstraint <http://data.europa.eu/949/shapes/ProtectionLegacySystemSKOS>],
+                     [a sh:ValidationResult ; 
+                      sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ; 
+                      sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ; 
+                      sh:value <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ; 
+                      sh:sourceConstraintComponent sh:SPARQLConstraintComponent ; 
+                      sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ; 
+                      sh:resultSeverity sh:Violation ; 
+                      sh:sourceConstraint <http://data.europa.eu/949/shapes/ProtectionLegacySystemSKOS>],
+                     [a sh:ValidationResult ; 
+                      sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ; 
+                      sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ; 
+                      sh:value <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ; 
+                      sh:sourceConstraintComponent sh:SPARQLConstraintComponent ; 
+                      sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ; 
+                      sh:resultSeverity sh:Violation ; 
+                      sh:sourceConstraint <http://data.europa.eu/949/shapes/ProtectionLegacySystemSKOS>],
+                     [a sh:ValidationResult ; 
+                      sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ; 
+                      sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ; 
+                      sh:value <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ; 
+                      sh:sourceConstraintComponent sh:SPARQLConstraintComponent ; 
+                      sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ; 
+                      sh:resultSeverity sh:Violation ; 
+                      sh:sourceConstraint <http://data.europa.eu/949/shapes/ProtectionLegacySystemSKOS>],
+                     [a sh:ValidationResult ; 
+                      sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ; 
+                      sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ; 
+                      sh:value <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ; 
+                      sh:sourceConstraintComponent sh:SPARQLConstraintComponent ; 
+                      sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ; 
+                      sh:resultSeverity sh:Violation ; 
+                      sh:sourceConstraint <http://data.europa.eu/949/shapes/ProtectionLegacySystemSKOS>],
+                     [a sh:ValidationResult ; 
+                      sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ; 
+                      sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ; 
+                      sh:value <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ; 
+                      sh:sourceConstraintComponent sh:SPARQLConstraintComponent ; 
+                      sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ; 
+                      sh:resultSeverity sh:Violation ; 
+                      sh:sourceConstraint <http://data.europa.eu/949/shapes/ProtectionLegacySystemSKOS>],
+                     [a sh:ValidationResult ; 
+                      sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ; 
+                      sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ; 
+                      sh:value <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ; 
+                      sh:sourceConstraintComponent sh:SPARQLConstraintComponent ; 
+                      sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ; 
+                      sh:resultSeverity sh:Violation ; 
+                      sh:sourceConstraint <http://data.europa.eu/949/shapes/ProtectionLegacySystemSKOS>],
+                     [a sh:ValidationResult ; 
+                      sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ; 
+                      sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ; 
+                      sh:value <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ; 
+                      sh:sourceConstraintComponent sh:SPARQLConstraintComponent ; 
+                      sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ; 
+                      sh:resultSeverity sh:Violation ; 
+                      sh:sourceConstraint <http://data.europa.eu/949/shapes/ProtectionLegacySystemSKOS>],
+                     [a sh:ValidationResult ; 
+                      sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ; 
+                      sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ; 
+                      sh:value <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ; 
                       sh:sourceConstraintComponent sh:SPARQLConstraintComponent ; 
                       sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ; 
                       sh:resultSeverity sh:Violation ; 

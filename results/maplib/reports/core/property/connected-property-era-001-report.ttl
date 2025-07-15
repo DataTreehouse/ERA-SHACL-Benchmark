@@ -1,0 +1,29 @@
+@prefix ns1: <https://github.com/DataTreehouse/maplib#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:maplib:report> a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result <urn:maplib:tr_0>,
+        <urn:maplib:tr_1> .
+
+<urn:maplib:tr_0> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultMessage "protectionLegacySystem: The instance of Track has a protectionLegacySystem value that is not a SKOS concept." ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:violation ;
+    sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/ProtectionLegacySystemSKOS> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_1> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    sh:resultMessage "protectionLegacySystem: The instance of Track has a protectionLegacySystem value that is not one of the predefined values and cannot be converted into a SKOS concept on this list: http://data.europa.eu/949/concepts/train-protection-legacy-systems/TrainProtectionLegacySystems." ;
+    sh:resultPath skos:inScheme ;
+    sh:resultSeverity sh:violation ;
+    sh:sourceConstraintComponent sh:HasValueConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/ProtectionLegacySystemSKOSinScheme> ;
+    ns1:resultConforms false .
+

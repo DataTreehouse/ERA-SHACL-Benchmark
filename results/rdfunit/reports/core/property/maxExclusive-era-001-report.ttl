@@ -1,11 +1,11 @@
-<urn:uuid:8f761bf8-2db4-11b2-80b8-0242ac110003/8f761bfd-2db4-11b2-80b8-0242ac110003>
+<urn:uuid:9907965c-2dc2-11b2-80e4-3ece31a69e81/99079661-2dc2-11b2-80e4-3ece31a69e81>
         a       <http://rdfunit.aksw.org/ns/core#TestCaseResult> , <http://www.w3.org/ns/shacl#ValidationResult> ;
         <http://purl.org/dc/terms/date>
-                "2025-05-06T14:27:47.504Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2025-07-15T09:11:14.755Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <http://rdfunit.aksw.org/ns/core#testCase>
-                <urn:uuid:8f761bfb-2db4-11b2-80b8-0242ac110003> ;
+                <urn:uuid:9907965d-2dc2-11b2-80e4-3ece31a69e81> ;
         <http://www.w3.org/ns/prov#wasGeneratedBy>
-                <urn:uuid:8f761bf8-2db4-11b2-80b8-0242ac110003> ;
+                <urn:uuid:9907965c-2dc2-11b2-80e4-3ece31a69e81> ;
         <http://www.w3.org/ns/shacl#focusNode>
                 <http://data.europa.eu/949/locations/%2B49.2266/16.6055> ;
         <http://www.w3.org/ns/shacl#message>
@@ -25,7 +25,7 @@
         <http://www.w3.org/ns/shacl#value>
                 "+49.2266"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<urn:uuid:8f761bf8-2db4-11b2-80b8-0242ac110003>
+<urn:uuid:9907965c-2dc2-11b2-80e4-3ece31a69e81>
         a       <http://rdfunit.aksw.org/ns/core#TestExecution> , <http://www.w3.org/ns/shacl#ValidationReport> , <http://www.w3.org/ns/prov#Activity> ;
         <http://rdfunit.aksw.org/ns/core#executionType>
                 "shaclTestCaseResult" ;
@@ -44,9 +44,9 @@
         <http://rdfunit.aksw.org/ns/core#totalIndividualErrors>
                 "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
         <http://www.w3.org/ns/prov#endedAtTime>
-                "2025-05-06T14:27:47.505Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2025-07-15T09:11:14.76Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <http://www.w3.org/ns/prov#startedAtTime>
-                "2025-05-06T14:27:47.459Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2025-07-15T09:11:14.691Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <http://www.w3.org/ns/prov#wasAssociatedWith>
                 <../data/core/property/maxExclusive-era-001.ttl> ;
         <http://www.w3.org/ns/prov#wasStartedBy>
@@ -54,4 +54,4 @@
         <http://www.w3.org/ns/shacl#conforms>
                 false ;
         <http://www.w3.org/ns/shacl#result>
-                <urn:uuid:8f761bf8-2db4-11b2-80b8-0242ac110003/8f761bfd-2db4-11b2-80b8-0242ac110003> .
+                <urn:uuid:9907965c-2dc2-11b2-80e4-3ece31a69e81/99079661-2dc2-11b2-80e4-3ece31a69e81> .

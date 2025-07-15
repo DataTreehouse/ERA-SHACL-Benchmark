@@ -1,5 +1,5 @@
-<urn:uuid:8f7cefc8-2db4-11b2-80eb-0242ac110003>
-        a       <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/shacl#ValidationReport> , <http://rdfunit.aksw.org/ns/core#TestExecution> ;
+<urn:uuid:990fa414-2dc2-11b2-80a7-9a7e6c55b822>
+        a       <http://www.w3.org/ns/shacl#ValidationReport> , <http://rdfunit.aksw.org/ns/core#TestExecution> , <http://www.w3.org/ns/prov#Activity> ;
         <http://rdfunit.aksw.org/ns/core#executionType>
                 "shaclTestCaseResult" ;
         <http://rdfunit.aksw.org/ns/core#source>
@@ -17,9 +17,9 @@
         <http://rdfunit.aksw.org/ns/core#totalIndividualErrors>
                 "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
         <http://www.w3.org/ns/prov#endedAtTime>
-                "2025-05-06T14:28:32.167Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2025-07-15T09:12:07.488Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <http://www.w3.org/ns/prov#startedAtTime>
-                "2025-05-06T14:28:32.166Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2025-07-15T09:12:07.488Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <http://www.w3.org/ns/prov#wasAssociatedWith>
                 <../data/core/property/minCount-era-002.ttl> ;
         <http://www.w3.org/ns/prov#wasStartedBy>

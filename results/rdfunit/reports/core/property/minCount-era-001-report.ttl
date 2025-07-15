@@ -1,30 +1,5 @@
-<urn:uuid:8f7b43e4-2db4-11b2-804b-0242ac110003/8f7b43e9-2db4-11b2-804b-0242ac110003>
-        a       <http://rdfunit.aksw.org/ns/core#TestCaseResult> , <http://www.w3.org/ns/shacl#ValidationResult> ;
-        <http://purl.org/dc/terms/date>
-                "2025-05-06T14:28:21.266Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://rdfunit.aksw.org/ns/core#testCase>
-                <urn:uuid:8f7b43e5-2db4-11b2-804b-0242ac110003> ;
-        <http://www.w3.org/ns/prov#wasGeneratedBy>
-                <urn:uuid:8f7b43e4-2db4-11b2-804b-0242ac110003> ;
-        <http://www.w3.org/ns/shacl#focusNode>
-                <http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> ;
-        <http://www.w3.org/ns/shacl#message>
-                "Minimum cardinality for <http://data.europa.eu/949/opName> is \"1\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
-        <http://www.w3.org/ns/shacl#resultMessage>
-                "Minimum cardinality for {$PATH} is {$minCount}" ;
-        <http://www.w3.org/ns/shacl#resultPath>
-                <http://data.europa.eu/949/opName> ;
-        <http://www.w3.org/ns/shacl#resultSeverity>
-                <http://www.w3.org/ns/shacl#Violation> ;
-        <http://www.w3.org/ns/shacl#severity>
-                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#ERROR> ;
-        <http://www.w3.org/ns/shacl#sourceConstraintComponent>
-                <http://www.w3.org/ns/shacl#MinCountConstraintComponent> ;
-        <http://www.w3.org/ns/shacl#sourceShape>
-                <http://data.europa.eu/949/shapes/opName> .
-
-<urn:uuid:8f7b43e4-2db4-11b2-804b-0242ac110003>
-        a       <http://rdfunit.aksw.org/ns/core#TestExecution> , <http://www.w3.org/ns/shacl#ValidationReport> , <http://www.w3.org/ns/prov#Activity> ;
+<urn:uuid:990d96ec-2dc2-11b2-80de-86a450adc1fa>
+        a       <http://rdfunit.aksw.org/ns/core#TestExecution> , <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/shacl#ValidationReport> ;
         <http://rdfunit.aksw.org/ns/core#executionType>
                 "shaclTestCaseResult" ;
         <http://rdfunit.aksw.org/ns/core#source>
@@ -42,9 +17,9 @@
         <http://rdfunit.aksw.org/ns/core#totalIndividualErrors>
                 "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
         <http://www.w3.org/ns/prov#endedAtTime>
-                "2025-05-06T14:28:21.27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2025-07-15T09:11:54.149Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <http://www.w3.org/ns/prov#startedAtTime>
-                "2025-05-06T14:28:21.232Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2025-07-15T09:11:54.079Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <http://www.w3.org/ns/prov#wasAssociatedWith>
                 <../data/core/property/minCount-era-001.ttl> ;
         <http://www.w3.org/ns/prov#wasStartedBy>
@@ -52,4 +27,29 @@
         <http://www.w3.org/ns/shacl#conforms>
                 false ;
         <http://www.w3.org/ns/shacl#result>
-                <urn:uuid:8f7b43e4-2db4-11b2-804b-0242ac110003/8f7b43e9-2db4-11b2-804b-0242ac110003> .
+                <urn:uuid:990d96ec-2dc2-11b2-80de-86a450adc1fa/990d96f1-2dc2-11b2-80de-86a450adc1fa> .
+
+<urn:uuid:990d96ec-2dc2-11b2-80de-86a450adc1fa/990d96f1-2dc2-11b2-80de-86a450adc1fa>
+        a       <http://www.w3.org/ns/shacl#ValidationResult> , <http://rdfunit.aksw.org/ns/core#TestCaseResult> ;
+        <http://purl.org/dc/terms/date>
+                "2025-07-15T09:11:54.147Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://rdfunit.aksw.org/ns/core#testCase>
+                <urn:uuid:990d96ef-2dc2-11b2-80de-86a450adc1fa> ;
+        <http://www.w3.org/ns/prov#wasGeneratedBy>
+                <urn:uuid:990d96ec-2dc2-11b2-80de-86a450adc1fa> ;
+        <http://www.w3.org/ns/shacl#focusNode>
+                <http://data.europa.eu/949/functionalInfrastructure/operationalPoints/8fb9a95852ddf67349c2a794d3e2059ba3004808> ;
+        <http://www.w3.org/ns/shacl#message>
+                "Minimum cardinality for <http://data.europa.eu/949/opName> is \"1\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        <http://www.w3.org/ns/shacl#resultMessage>
+                "Minimum cardinality for {$PATH} is {$minCount}" ;
+        <http://www.w3.org/ns/shacl#resultPath>
+                <http://data.europa.eu/949/opName> ;
+        <http://www.w3.org/ns/shacl#resultSeverity>
+                <http://www.w3.org/ns/shacl#Violation> ;
+        <http://www.w3.org/ns/shacl#severity>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#ERROR> ;
+        <http://www.w3.org/ns/shacl#sourceConstraintComponent>
+                <http://www.w3.org/ns/shacl#MinCountConstraintComponent> ;
+        <http://www.w3.org/ns/shacl#sourceShape>
+                <http://data.europa.eu/949/shapes/opName> .

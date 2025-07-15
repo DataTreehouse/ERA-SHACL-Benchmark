@@ -1,3 +1,4 @@
+@prefix era: <http://data.europa.eu/949/> .
 @prefix era-sh: <http://data.europa.eu/949/shapes/> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -6,9 +7,9 @@
     sh:conforms false ;
     sh:result [ a sh:ValidationResult ;
             sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+            sh:resultPath era:protectionLegacySystem ;
             sh:resultSeverity sh:Violation ;
             sh:sourceConstraint era-sh:ProtectionLegacySystemSKOS ;
             sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
-            sh:sourceShape era-sh:trackShape ;
-            sh:value <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ] .
+            sh:sourceShape era-sh:trackShape ] .
 

@@ -1,5 +1,5 @@
-<urn:uuid:8f5f8dc0-2db4-11b2-802c-0242ac110003>
-        a       <http://www.w3.org/ns/prov#Activity> , <http://rdfunit.aksw.org/ns/core#TestExecution> , <http://www.w3.org/ns/shacl#ValidationReport> ;
+<urn:uuid:98eb1928-2dc2-11b2-8035-5adc4eea32cc>
+        a       <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/shacl#ValidationReport> , <http://rdfunit.aksw.org/ns/core#TestExecution> ;
         <http://rdfunit.aksw.org/ns/core#executionType>
                 "shaclTestCaseResult" ;
         <http://rdfunit.aksw.org/ns/core#source>
@@ -17,9 +17,9 @@
         <http://rdfunit.aksw.org/ns/core#totalIndividualErrors>
                 "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
         <http://www.w3.org/ns/prov#endedAtTime>
-                "2025-05-06T14:25:19.656Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2025-07-15T09:08:08.094Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <http://www.w3.org/ns/prov#startedAtTime>
-                "2025-05-06T14:25:19.617Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2025-07-15T09:08:08.026Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <http://www.w3.org/ns/prov#wasAssociatedWith>
                 <../data/core/node/nodeKind-era-001.ttl> ;
         <http://www.w3.org/ns/prov#wasStartedBy>
@@ -27,16 +27,16 @@
         <http://www.w3.org/ns/shacl#conforms>
                 false ;
         <http://www.w3.org/ns/shacl#result>
-                <urn:uuid:8f5f8dc0-2db4-11b2-802c-0242ac110003/8f5f8dc5-2db4-11b2-802c-0242ac110003> .
+                <urn:uuid:98eb1928-2dc2-11b2-8035-5adc4eea32cc/98eb192d-2dc2-11b2-8035-5adc4eea32cc> .
 
-<urn:uuid:8f5f8dc0-2db4-11b2-802c-0242ac110003/8f5f8dc5-2db4-11b2-802c-0242ac110003>
-        a       <http://rdfunit.aksw.org/ns/core#TestCaseResult> , <http://www.w3.org/ns/shacl#ValidationResult> ;
+<urn:uuid:98eb1928-2dc2-11b2-8035-5adc4eea32cc/98eb192d-2dc2-11b2-8035-5adc4eea32cc>
+        a       <http://www.w3.org/ns/shacl#ValidationResult> , <http://rdfunit.aksw.org/ns/core#TestCaseResult> ;
         <http://purl.org/dc/terms/date>
-                "2025-05-06T14:25:19.655Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2025-07-15T09:08:08.089Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <http://rdfunit.aksw.org/ns/core#testCase>
-                <urn:uuid:8f5f8dc3-2db4-11b2-802c-0242ac110003> ;
+                <urn:uuid:98eb1929-2dc2-11b2-8035-5adc4eea32cc> ;
         <http://www.w3.org/ns/prov#wasGeneratedBy>
-                <urn:uuid:8f5f8dc0-2db4-11b2-802c-0242ac110003> ;
+                <urn:uuid:98eb1928-2dc2-11b2-8035-5adc4eea32cc> ;
         <http://www.w3.org/ns/shacl#focusNode>
                 "not-an-IRI" ;
         <http://www.w3.org/ns/shacl#message>
