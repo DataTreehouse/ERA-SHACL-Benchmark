@@ -11,22 +11,15 @@
   sh:conforms false;
   rdf4j:truncated false;
   sh:result [ a sh:ValidationResult;
-      sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4>;
+      sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/phaseInfo/ESL984610276_ESA0849_II%20MIXTA_ES08207_length402switchoffbreakerYlowerpantographN>;
       rsx:shapesGraph rdf4j:SHACLShapeGraph;
-      sh:value "";
-      sh:resultPath _:1fe1f8aa03128e86;
-      sh:sourceConstraintComponent sh:OrConstraintComponent;
+      sh:value <http://data.europa.eu/949/functionalInfrastructure/phaseInfo/ESL984610276_ESA0849_II%20MIXTA_ES08207_length402switchoffbreakerYlowerpantographN>;
+      sh:sourceConstraintComponent sh:InConstraintComponent;
       sh:resultSeverity sh:Violation;
       sh:sourceShape <http://data.europa.eu/949/shapes/PhaseInfoDistanceType>
     ] .
 
-<http://data.europa.eu/949/shapes/PhaseInfoDistanceType> a sh:PropertyShape;
-  sh:path _:1fe1f8aa03128e86;
-  sh:or ([ a sh:NodeShape;
-        sh:hasValue "MIN"
-      ] [ a sh:NodeShape;
-        sh:hasValue "MAX"
-      ]) .
-
-[] rdf:first <http://data.europa.eu/949/trackPhaseInfo>;
-  rdf:rest (<http://data.europa.eu/949/phaseInfoDistanceType>) .
+<http://data.europa.eu/949/shapes/PhaseInfoDistanceType> a sh:NodeShape;
+  sh:targetNode <http://data.europa.eu/949/functionalInfrastructure/phaseInfo/ESL984610276_ESA0849_II%20MIXTA_ES08207_length402switchoffbreakerYlowerpantographN>,
+    "MAX";
+  sh:in ("MIN" "MAX") .
