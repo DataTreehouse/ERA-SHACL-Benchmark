@@ -62,10 +62,11 @@ era-sh:ProtectionLegacySystemSKOS
 	  sh:result [ 
 			rdf:type sh:ValidationResult ;
             sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+            sh:resultPath era:protectionLegacySystem ;
             sh:resultSeverity sh:Violation ;
             sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
             sh:sourceShape era-sh:trackShape ;
-            sh:value <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4>
+            # sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> # Not mandatory
         ] ;
     ] ;
    mf:status sht:proposed ;
