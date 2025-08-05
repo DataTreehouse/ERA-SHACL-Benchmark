@@ -32,6 +32,7 @@ def config_ax(ax, engines, results, subset, shapes, indicator):
 
     ax.bar(engines, values)
     ax.errorbar(engines, values, values_err, fmt='none', color='black', markersize=2, capsize=4)
+
     ax.set_yscale("log")
     # ax.set_ylim(1e-1, 172800)
     ax.grid(axis='y')
@@ -75,9 +76,9 @@ def plot_bench_load(engines, results, indicator):
     config_ax(axs[2], engines, results, 'ES', 'core', indicator)
 
 
-engines = ['maplib', 'jena', 'topbraid', 'rdf4j', 'rdfunit', 'dotnet_rdf', 'corese', 'pyshacl' ] # list(results.keys()) 'maplib-0.12',
-# plot_bench_load(engines, results, 'loading')
-plot_bench(engines, results, 'loading')
+engines = ['maplib', 'jena', 'topbraid', 'rdf4j', 'rdfunit', 'dotnet_rdf', 'pyshacl', 'corese' ] # list(results.keys()) 'maplib-0.12',
+plot_bench_load(engines, results, 'loading')
+# plot_bench(engines, results, 'loading')
 plot_bench(engines, results, ' validation')
 plot_bench(engines, results, ' memory_usage')
 plot_bench(engines, results, 'cummulative')

@@ -13,7 +13,7 @@ with open('./reports_shapes.ttl', "r") as file:
 
 for dataset in ["ES", "FR", "ERA"]:
     for shapes in ["tds", "core", "era"]:
-        for engine in ["maplib", "rdf4j", "rdfunit", "dotnet_rdf", "corese", "pyshacl"]:
+        for engine in ["rdf4j"]: # ["maplib", "rdf4j", "rdfunit", "dotnet_rdf", "corese", "pyshacl"]:
             g = rdflib.Graph()
             try:
                 with open(f'../results/{engine}/reports/{dataset}_{shapes}_report.ttl', "r", encoding="utf-8") as file:
@@ -26,4 +26,4 @@ for dataset in ["ES", "FR", "ERA"]:
                 # Generate report
                 vres_graph.serialize(format="turtle", destination=f"../results/reports/{engine}_{dataset}_{shapes}_report_report.ttl")
             except:
-                pass
+                print(engine, dataset, shapes, "passed")
