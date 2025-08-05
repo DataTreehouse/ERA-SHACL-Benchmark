@@ -1,0 +1,315 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix earl: <http://www.w3.org/ns/earl#> .
+
+<http://maplib-engine.uri/era/shacl/benchmark/> a earl:Software,
+        earl:TestSubject ;
+    doap:name "maplib" .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/sparql/node/prefixes-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/or-era-002.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/node/datatype-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/node/class-era-002.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/class-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/minLength-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/maxCount-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/sparql/property/sparql-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/node/maxLength-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/in-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/sparql/component/nodeValidator-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/disjoint-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/node/in-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/hasValue-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/path/path-sequence-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/nodeKind-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/node/minLength-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/sparql/component/propertyValidator-select-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/minCount-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/sparql/node/sparql-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/pattern-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/node/minInclusive-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/node/nodeKind-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/connected-property-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/node/hasValue-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/maxCount-era-002.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/node/maxInclusive-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/maxExclusive-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:passed ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/minCount-era-002.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/sparql/misc/message-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/sparql/misc/message-era-002.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/maxInclusive-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/node/class-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/or-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/misc/message-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/node/or-era-002.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/class-era-002.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/maxLength-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/datatype-era-002.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/property/minInclusive-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/node/pattern-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/node/maxExclusive-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/node/or-era-001.ttl> .
+
+[] a earl:Assertion ;
+    earl:result [ a earl:TestResult ;
+            earl:mode earl:automatic ;
+            earl:outcome earl:cantTell ] ;
+    earl:subject <http://maplib-engine.uri/era/shacl/benchmark/> ;
+    earl:test <http://github.com/alexisimo/ERA-SHACL-Benchmark/tests/core/node/disjoint-era-001.ttl> .
+
