@@ -1,0 +1,35 @@
+# maxLength-era-001-data valid resources
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/hashSource> "01_SEBjn_SEMsj/None_None/N/Lida 3_+59.169317.8671_+59.160717.8407/None_None".
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/notYetAvailable> <http://data.europa.eu/949/hasEmergencyPlan>.
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/hashSource> "01_SEBjn_SEMsj/None_None/N/Lida 3_+59.169317.8671_+59.160717.8407/None_None".
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/notYetAvailable> <http://data.europa.eu/949/complianceInfTsi>.
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/hashSource> "01_SEBjn_SEMsj/None_None/N/Lida 3_+59.169317.8671_+59.160717.8407/None_None".
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/notYetAvailable> <http://data.europa.eu/949/verificationSRT>.
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/hashSource> "01_SEBjn_SEMsj/None_None/N/Lida 3_+59.169317.8671_+59.160717.8407/None_None".
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/notYetAvailable> <http://data.europa.eu/949/tunnelDocRef>.
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/hashSource> "01_SEBjn_SEMsj/None_None/N/Lida 3_+59.169317.8671_+59.160717.8407/None_None".
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/notYetAvailable> <http://data.europa.eu/949/nationalRollingStockFireCategory>.
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/hashSource> "01_SEBjn_SEMsj/None_None/N/Lida 3_+59.169317.8671_+59.160717.8407/None_None".
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/notYetAvailable> <http://data.europa.eu/949/crossSectionArea>.
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/hashSource> "01_SEBjn_SEMsj/None_None/N/Lida 3_+59.169317.8671_+59.160717.8407/None_None".
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/notYetAvailable> <http://data.europa.eu/949/rollingStockFireCategory>.
+<http://data.europa.eu/949/functionalInfrastructure/tracks/69e65ccaa21d0973d222f36d417cde6573230f7c> <http://data.europa.eu/949/passesThroughTunnel> <http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e>.
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/949/Tunnel>.
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/canonicalURI> <http://data.europa.eu/949/functionalInfrastructure/tunnels/Lida%203_%2B59.169317.8671_%2B59.160717.8407>.
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://www.w3.org/2000/01/rdf-schema#label> "Lida 3".
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/imCode> "0074".
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/tunnelIdentification> "Lida 3".
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/startLocation> <http://data.europa.eu/949/locations/%2B59.1693/17.8671>.
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/endLocation> <http://data.europa.eu/949/locations/%2B59.1607/17.8407>.
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/netElement> <http://data.europa.eu/949/topology/netElements/01_SEBjn_N_SEMsj>.
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/netElement> <http://data.europa.eu/949/topology/netElements/01_SEBjn_U_SEMsj>.
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/hashSource> "01_SEBjn_SEMsj/None_None/N/Lida 3_+59.169317.8671_+59.160717.8407/None_None".
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/lineReferenceTunnelStart> <http://data.europa.eu/949/functionalInfrastructure/railwayLocation/N_17.8671%2B59.1693%2B0023.704>.
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/lineReferenceTunnelEnd> <http://data.europa.eu/949/functionalInfrastructure/railwayLocation/N_17.8407%2B59.1607%2B0025.493>.
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/inCountry> <http://publications.europa.eu/resource/authority/country/SWE>.
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/length> "1780"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/010d574ec33c941487e788741459394ed983171e> <http://data.europa.eu/949/lengthOfTunnel> "1780"^^<http://www.w3.org/2001/XMLSchema#double>.
+# Synthetic valid resource
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/08709321a46939b5b4ead46056d2d558160abd86> <http://data.europa.eu/949/imCode> "085".
+# Synthetic invalid resource
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/0216a7cb8aa627482be15180128a928f1ad88896> <http://data.europa.eu/949/imCode> "00745".

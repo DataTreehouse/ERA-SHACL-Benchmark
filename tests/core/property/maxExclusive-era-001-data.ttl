@@ -1,0 +1,17 @@
+# maxExclusive-era-001 valid resource
+<http://data.europa.eu/949/locations/%2B5.0966/52.0988> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#Point>.
+<http://data.europa.eu/949/locations/%2B5.0966/52.0988> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry>.
+<http://data.europa.eu/949/locations/%2B5.0966/52.0988> <http://www.w3.org/2000/01/rdf-schema#label> "52.0988 +5.0966".
+<http://data.europa.eu/949/locations/%2B5.0966/52.0988> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "52.0988"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://data.europa.eu/949/locations/%2B5.0966/52.0988> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "+5.0966"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://data.europa.eu/949/locations/%2B5.0966/52.0988> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (+5.0966 52.0988)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/91e58d29dbbd652d4b436bace600c03d8498b19a> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://data.europa.eu/949/locations/%2B5.0966/52.0988>.
+<http://data.europa.eu/949/functionalInfrastructure/operationalPoints/91e58d29dbbd652d4b436bace600c03d8498b19a> <http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://data.europa.eu/949/locations/%2B5.0966/52.0988>.
+# maxExclusive-era-001 invalid resource
+<http://data.europa.eu/949/functionalInfrastructure/tunnels/95bf94190bef96f602c0a40ef7bf87d037764743> <http://data.europa.eu/949/startLocation> <http://data.europa.eu/949/locations/%2B49.2266/16.6055>.
+<http://data.europa.eu/949/locations/%2B49.2266/16.6055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#Point>.
+<http://data.europa.eu/949/locations/%2B49.2266/16.6055> <http://www.w3.org/2000/01/rdf-schema#label> "Latitude: 16.6055 Longitude: +49.2266".
+<http://data.europa.eu/949/locations/%2B49.2266/16.6055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry>.
+<http://data.europa.eu/949/locations/%2B49.2266/16.6055> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "16.6055"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://data.europa.eu/949/locations/%2B49.2266/16.6055> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "+49.2266"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://data.europa.eu/949/locations/%2B49.2266/16.6055> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (+49.2266 16.6055)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.

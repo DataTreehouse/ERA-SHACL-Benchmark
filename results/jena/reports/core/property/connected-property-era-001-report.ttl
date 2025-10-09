@@ -1,0 +1,42 @@
+PREFIX :               <http://data.europa.eu/949/>
+PREFIX cc:             <http://creativecommons.org/ns#>
+PREFIX dct:            <http://purl.org/dc/terms/>
+PREFIX era:            <http://data.europa.eu/949/>
+PREFIX era-sh:         <http://data.europa.eu/949/shapes/>
+PREFIX era-skos:       <http://data.europa.eu/949/concepts/>
+PREFIX era-tpls:       <http://data.europa.eu/949/concepts/train-protection-legacy-systems/>
+PREFIX era-tpls-eratv: <http://data.europa.eu/949/concepts/train-protection-legacy-systems/eratv/>
+PREFIX era-tpls-rinf:  <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/>
+PREFIX foaf:           <http://xmlns.com/foaf/0.1/>
+PREFIX geosparql:      <http://www.opengis.net/ont/geosparql#>
+PREFIX mf:             <http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#>
+PREFIX owl:            <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:            <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:           <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sh:             <http://www.w3.org/ns/shacl#>
+PREFIX sht:            <http://www.w3.org/ns/shacl-test#>
+PREFIX skos:           <http://www.w3.org/2004/02/skos/core#>
+PREFIX wgs:            <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX xml:            <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd:            <http://www.w3.org/2001/XMLSchema#>
+
+[ rdf:type     sh:ValidationReport;
+  sh:conforms  false;
+  sh:result    [ rdf:type                      sh:ValidationResult;
+                 sh:focusNode                  era-tpls-rinf:2;
+                 sh:resultMessage              "protectionLegacySystem: The instance of Track has a protectionLegacySystem value that is not one of the predefined values and cannot be converted into a SKOS concept on this list: http://data.europa.eu/949/concepts/train-protection-legacy-systems/TrainProtectionLegacySystems.";
+                 sh:resultPath                 skos:inScheme;
+                 sh:resultSeverity             sh:violation;
+                 sh:sourceConstraintComponent  sh:HasValueConstraintComponent;
+                 sh:sourceShape                era-sh:ProtectionLegacySystemSKOSinScheme
+               ];
+  sh:result    [ rdf:type                      sh:ValidationResult;
+                 sh:focusNode                  <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4>;
+                 sh:resultMessage              "protectionLegacySystem: The instance of Track has a protectionLegacySystem value that is not a SKOS concept.";
+                 sh:resultPath                 era:protectionLegacySystem;
+                 sh:resultSeverity             sh:violation;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent;
+                 sh:sourceShape                era-sh:ProtectionLegacySystemSKOS;
+                 sh:value                      era-tpls-rinf:2
+               ]
+] .

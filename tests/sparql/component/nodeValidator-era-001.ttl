@@ -1,0 +1,88 @@
+@prefix era-sh: <http://data.europa.eu/949/shapes/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix era: <http://data.europa.eu/949/> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix mf: <http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#> .
+@prefix sht: <http://www.w3.org/ns/shacl-test#> .
+
+
+# SKOS Constraint component
+era-sh:SKOSConstraintComponent a sh:ConstraintComponent ;
+	sh:parameter [
+		sh:path era-sh:propertyToSKOS;
+		sh:nodeKind sh:IRI
+		] ;
+	sh:nodeValidator era-sh:SKOSSelectValidator .
+
+era-sh:SKOSSelectValidator a sh:SPARQLSelectValidator ;
+	sh:select """
+    PREFIX era: <http://data.europa.eu/949/>
+    PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    SELECT $this ?concept ?label
+    WHERE {
+ 		OPTIONAL {$this rdfs:label ?label} .
+        $this ?propertyToSKOS ?concept .
+        ?propertyToSKOS era:inSkosConceptScheme ?conceptScheme .
+		FILTER NOT EXISTS{         
+  			$concept skos:inScheme ?conceptScheme .
+		}
+	}
+""".
+
+era-sh:trackShape
+    a sh:NodeShape ;
+    era-sh:propertyToSKOS era:protectionLegacySystem ;
+    # sh:message "The validation failed in the node: {$this} ({?label}) for it's pointing to an invalid concept: {?concept}. "@en ;
+    # sh:prefixes era-sh:EraPrefixesDeclaration ;
+    sh:targetNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4>; # Invalid Resource
+  	sh:targetNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39>. # Valid Resource
+
+
+<>
+  rdf:type mf:Manifest ;
+  mf:entries (
+      <nodeValidator-001>
+    ) ;
+.
+<nodeValidator-001>
+  rdf:type sht:Validate ;
+  rdfs:label "Test of sh:nodeValidator 001" ;
+  mf:action [
+      sht:dataGraph <nodeValidator-001-data.ttl> ;
+      sht:shapesGraph <> ;
+    ] ;
+  mf:result [
+      rdf:type sh:ValidationReport ;
+      sh:conforms "false"^^xsd:boolean ;
+      sh:result [
+          rdf:type sh:ValidationResult ;
+          sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+          sh:resultSeverity sh:Violation ;
+          sh:sourceConstraintComponent era-sh:SKOSConstraintComponent ;
+          sh:sourceShape era-sh:trackShape ;
+          sh:value <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+        ] ;
+    ] ;
+  mf:status sht:proposed ;
+.
+
+# era-sh:EraPrefixesDeclaration
+#     a sh:PrefixDeclaration ;
+#     sh:declare [
+#                 sh:prefix    "era" ;
+#                 sh:namespace "http://data.europa.eu/949/"^^xsd:anyURI ;
+#         ] ;
+#     sh:declare [
+#                 sh:prefix    "skos" ;
+#                 sh:namespace "http://www.w3.org/2004/02/skos/core#"^^xsd:anyURI ;
+#         ] ;
+#     sh:declare [
+#                 sh:prefix    "rdfs" ;
+#                 sh:namespace "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
+#         ] ;
+#     .

@@ -1,0 +1,80 @@
+<urn:uuid:98f11f62-2dc2-11b2-8053-f2b740da75fc/98f11f69-2dc2-11b2-8053-f2b740da75fc>
+        a       <http://www.w3.org/ns/shacl#ValidationResult> , <http://rdfunit.aksw.org/ns/core#TestCaseResult> ;
+        <http://purl.org/dc/terms/date>
+                "2025-07-15T09:08:47.621Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://rdfunit.aksw.org/ns/core#testCase>
+                <urn:uuid:98f11f65-2dc2-11b2-8053-f2b740da75fc> ;
+        <http://www.w3.org/ns/prov#wasGeneratedBy>
+                <urn:uuid:98f11f62-2dc2-11b2-8053-f2b740da75fc> ;
+        <http://www.w3.org/ns/shacl#focusNode>
+                <http://data.europa.eu/949/functionalInfrastructure/sidings/03f5ac96ec17387fef12b06e302b74893b4ec932> ;
+        <http://www.w3.org/ns/shacl#message>
+                "Value does not match pattern '\"^[0-9]{4}$\"'" ;
+        <http://www.w3.org/ns/shacl#resultMessage>
+                "Value does not match pattern '{$pattern}'" ;
+        <http://www.w3.org/ns/shacl#resultSeverity>
+                <http://www.w3.org/ns/shacl#Violation> ;
+        <http://www.w3.org/ns/shacl#severity>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#ERROR> ;
+        <http://www.w3.org/ns/shacl#sourceConstraintComponent>
+                <http://www.w3.org/ns/shacl#PatternConstraintComponent> ;
+        <http://www.w3.org/ns/shacl#sourceShape>
+                <http://data.europa.eu/949/shapes/imCodeS> ;
+        <http://www.w3.org/ns/shacl#value>
+                <http://data.europa.eu/949/functionalInfrastructure/sidings/03f5ac96ec17387fef12b06e302b74893b4ec932> .
+
+<urn:uuid:98f11f62-2dc2-11b2-8053-f2b740da75fc>
+        a       <http://www.w3.org/ns/prov#Activity> , <http://rdfunit.aksw.org/ns/core#TestExecution> , <http://www.w3.org/ns/shacl#ValidationReport> ;
+        <http://rdfunit.aksw.org/ns/core#executionType>
+                "shaclTestCaseResult" ;
+        <http://rdfunit.aksw.org/ns/core#source>
+                <custom> ;
+        <http://rdfunit.aksw.org/ns/core#testsError>
+                "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://rdfunit.aksw.org/ns/core#testsFailed>
+                "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://rdfunit.aksw.org/ns/core#testsRun>
+                "3"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://rdfunit.aksw.org/ns/core#testsSuceedded>
+                "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://rdfunit.aksw.org/ns/core#testsTimeout>
+                "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://rdfunit.aksw.org/ns/core#totalIndividualErrors>
+                "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.w3.org/ns/prov#endedAtTime>
+                "2025-07-15T09:08:47.626Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.w3.org/ns/prov#startedAtTime>
+                "2025-07-15T09:08:47.55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.w3.org/ns/prov#wasAssociatedWith>
+                <../data/core/node/pattern-era-001.ttl> ;
+        <http://www.w3.org/ns/prov#wasStartedBy>
+                <http://localhost/> ;
+        <http://www.w3.org/ns/shacl#conforms>
+                false ;
+        <http://www.w3.org/ns/shacl#result>
+                <urn:uuid:98f11f62-2dc2-11b2-8053-f2b740da75fc/98f11f6a-2dc2-11b2-8053-f2b740da75fc> , <urn:uuid:98f11f62-2dc2-11b2-8053-f2b740da75fc/98f11f69-2dc2-11b2-8053-f2b740da75fc> .
+
+<urn:uuid:98f11f62-2dc2-11b2-8053-f2b740da75fc/98f11f6a-2dc2-11b2-8053-f2b740da75fc>
+        a       <http://www.w3.org/ns/shacl#ValidationResult> , <http://rdfunit.aksw.org/ns/core#TestCaseResult> ;
+        <http://purl.org/dc/terms/date>
+                "2025-07-15T09:08:47.625Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://rdfunit.aksw.org/ns/core#testCase>
+                <urn:uuid:98f11f67-2dc2-11b2-8053-f2b740da75fc> ;
+        <http://www.w3.org/ns/prov#wasGeneratedBy>
+                <urn:uuid:98f11f62-2dc2-11b2-8053-f2b740da75fc> ;
+        <http://www.w3.org/ns/shacl#focusNode>
+                "HU55" ;
+        <http://www.w3.org/ns/shacl#message>
+                "Value does not match pattern '\"^[0-9]{4}$\"'" ;
+        <http://www.w3.org/ns/shacl#resultMessage>
+                "Value does not match pattern '{$pattern}'" ;
+        <http://www.w3.org/ns/shacl#resultSeverity>
+                <http://www.w3.org/ns/shacl#Violation> ;
+        <http://www.w3.org/ns/shacl#severity>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#ERROR> ;
+        <http://www.w3.org/ns/shacl#sourceConstraintComponent>
+                <http://www.w3.org/ns/shacl#PatternConstraintComponent> ;
+        <http://www.w3.org/ns/shacl#sourceShape>
+                <http://data.europa.eu/949/shapes/imCodeS> ;
+        <http://www.w3.org/ns/shacl#value>
+                "HU55" .

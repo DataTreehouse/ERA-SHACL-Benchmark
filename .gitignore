@@ -1,3 +1,10 @@
+.venv
+old
+data/*
+!data/test/
+!data/vocabularies/
+
+reports/*
 # Compiled class file
 *.class
 

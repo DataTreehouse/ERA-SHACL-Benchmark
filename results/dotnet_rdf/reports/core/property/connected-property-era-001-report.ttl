@@ -1,0 +1,23 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+_:autos575 a sh:ValidationReport;
+           sh:conforms false;
+           sh:result [a sh:ValidationResult ; 
+                      sh:sourceConstraintComponent sh:HasValueConstraintComponent ; 
+                      sh:resultSeverity sh:violation ; 
+                      sh:resultMessage "protectionLegacySystem: The instance of Track has a protectionLegacySystem value that is not one of the predefined values and cannot be converted into a SKOS concept on this list: http://data.europa.eu/949/concepts/train-protection-legacy-systems/TrainProtectionLegacySystems." ; 
+                      sh:sourceShape <http://data.europa.eu/949/shapes/ProtectionLegacySystemSKOSinScheme> ; 
+                      sh:focusNode <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ; 
+                      sh:resultPath <http://www.w3.org/2004/02/skos/core#inScheme>],
+                     [a sh:ValidationResult ; 
+                      sh:sourceConstraintComponent sh:ClassConstraintComponent ; 
+                      sh:resultSeverity sh:violation ; 
+                      sh:resultMessage "protectionLegacySystem: The instance of Track has a protectionLegacySystem value that is not a SKOS concept." ; 
+                      sh:sourceShape <http://data.europa.eu/949/shapes/ProtectionLegacySystemSKOS> ; 
+                      sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ; 
+                      sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ; 
+                      sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2>].
+

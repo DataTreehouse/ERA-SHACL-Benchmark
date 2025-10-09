@@ -1,0 +1,25 @@
+PREFIX dash:    <http://datashapes.org/dash#>
+PREFIX era:     <http://data.europa.eu/949/>
+PREFIX era-sh:  <http://data.europa.eu/949/shapes/>
+PREFIX graphql: <http://datashapes.org/graphql#>
+PREFIX mf:      <http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#>
+PREFIX owl:     <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sh:      <http://www.w3.org/ns/shacl#>
+PREFIX sht:     <http://www.w3.org/ns/shacl-test#>
+PREFIX swa:     <http://topbraid.org/swa#>
+PREFIX tosh:    <http://topbraid.org/tosh#>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+
+[ rdf:type     sh:ValidationReport;
+  sh:conforms  false;
+  sh:result    [ rdf:type                      sh:ValidationResult;
+                 sh:focusNode                  <http://data.europa.eu/949/functionalInfrastructure/tracks/006c6fda669d79e5658307362eac006d25b5873d>;
+                 sh:resultMessage              "Property may only have 1 value, but found 2";
+                 sh:resultPath                 era:minimumTemperature;
+                 sh:resultSeverity             sh:Violation;
+                 sh:sourceConstraintComponent  sh:MaxCountConstraintComponent;
+                 sh:sourceShape                era-sh:MinimumTemperature
+               ]
+] .

@@ -1,0 +1,80 @@
+<urn:uuid:98e517f8-2dc2-11b2-8027-6268a9e640ca/98e51804-2dc2-11b2-8027-6268a9e640ca>
+        a       <http://rdfunit.aksw.org/ns/core#TestCaseResult> , <http://www.w3.org/ns/shacl#ValidationResult> ;
+        <http://purl.org/dc/terms/date>
+                "2025-07-15T09:07:28.739Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://rdfunit.aksw.org/ns/core#testCase>
+                <urn:uuid:98e517fd-2dc2-11b2-8027-6268a9e640ca> ;
+        <http://www.w3.org/ns/prov#wasGeneratedBy>
+                <urn:uuid:98e517f8-2dc2-11b2-8027-6268a9e640ca> ;
+        <http://www.w3.org/ns/shacl#focusNode>
+                510 ;
+        <http://www.w3.org/ns/shacl#message>
+                "sh:maxExclusive of {$PATH} should be \"500\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        <http://www.w3.org/ns/shacl#resultMessage>
+                "sh:maxExclusive of {$PATH} should be {$maxInclusive}" ;
+        <http://www.w3.org/ns/shacl#resultSeverity>
+                <http://www.w3.org/ns/shacl#Violation> ;
+        <http://www.w3.org/ns/shacl#severity>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#ERROR> ;
+        <http://www.w3.org/ns/shacl#sourceConstraintComponent>
+                <http://www.w3.org/ns/shacl#MaxInclusiveConstraintComponent> ;
+        <http://www.w3.org/ns/shacl#sourceShape>
+                <http://data.europa.eu/949/shapes/MaximumPermittedSpeed> ;
+        <http://www.w3.org/ns/shacl#value>
+                510 .
+
+<urn:uuid:98e517f8-2dc2-11b2-8027-6268a9e640ca/98e51803-2dc2-11b2-8027-6268a9e640ca>
+        a       <http://www.w3.org/ns/shacl#ValidationResult> , <http://rdfunit.aksw.org/ns/core#TestCaseResult> ;
+        <http://purl.org/dc/terms/date>
+                "2025-07-15T09:07:28.733Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://rdfunit.aksw.org/ns/core#testCase>
+                <urn:uuid:98e517fb-2dc2-11b2-8027-6268a9e640ca> ;
+        <http://www.w3.org/ns/prov#wasGeneratedBy>
+                <urn:uuid:98e517f8-2dc2-11b2-8027-6268a9e640ca> ;
+        <http://www.w3.org/ns/shacl#focusNode>
+                "a" ;
+        <http://www.w3.org/ns/shacl#message>
+                "sh:maxExclusive of {$PATH} should be \"500\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        <http://www.w3.org/ns/shacl#resultMessage>
+                "sh:maxExclusive of {$PATH} should be {$maxInclusive}" ;
+        <http://www.w3.org/ns/shacl#resultSeverity>
+                <http://www.w3.org/ns/shacl#Violation> ;
+        <http://www.w3.org/ns/shacl#severity>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#ERROR> ;
+        <http://www.w3.org/ns/shacl#sourceConstraintComponent>
+                <http://www.w3.org/ns/shacl#MaxInclusiveConstraintComponent> ;
+        <http://www.w3.org/ns/shacl#sourceShape>
+                <http://data.europa.eu/949/shapes/MaximumPermittedSpeed> ;
+        <http://www.w3.org/ns/shacl#value>
+                "a" .
+
+<urn:uuid:98e517f8-2dc2-11b2-8027-6268a9e640ca>
+        a       <http://www.w3.org/ns/shacl#ValidationReport> , <http://www.w3.org/ns/prov#Activity> , <http://rdfunit.aksw.org/ns/core#TestExecution> ;
+        <http://rdfunit.aksw.org/ns/core#executionType>
+                "shaclTestCaseResult" ;
+        <http://rdfunit.aksw.org/ns/core#source>
+                <custom> ;
+        <http://rdfunit.aksw.org/ns/core#testsError>
+                "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://rdfunit.aksw.org/ns/core#testsFailed>
+                "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://rdfunit.aksw.org/ns/core#testsRun>
+                "5"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://rdfunit.aksw.org/ns/core#testsSuceedded>
+                "3"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://rdfunit.aksw.org/ns/core#testsTimeout>
+                "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://rdfunit.aksw.org/ns/core#totalIndividualErrors>
+                "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.w3.org/ns/prov#endedAtTime>
+                "2025-07-15T09:07:28.746Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.w3.org/ns/prov#startedAtTime>
+                "2025-07-15T09:07:28.672Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.w3.org/ns/prov#wasAssociatedWith>
+                <../data/core/node/maxInclusive-era-001.ttl> ;
+        <http://www.w3.org/ns/prov#wasStartedBy>
+                <http://localhost/> ;
+        <http://www.w3.org/ns/shacl#conforms>
+                false ;
+        <http://www.w3.org/ns/shacl#result>
+                <urn:uuid:98e517f8-2dc2-11b2-8027-6268a9e640ca/98e51804-2dc2-11b2-8027-6268a9e640ca> , <urn:uuid:98e517f8-2dc2-11b2-8027-6268a9e640ca/98e51803-2dc2-11b2-8027-6268a9e640ca> .

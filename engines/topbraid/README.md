@@ -1,0 +1,49 @@
+# TopBraid CLI Data validator
+Command line RDF data validator against SHACL shapes. It is based on TopBraid libraries.
+
+## To compile the application:
+1. Make sure you have Java, the JDK and Maven installed.
+2. Clone the current repository.
+3. Navigate to the folder containing the `pom.xml` file.
+4. Run `mvn clean compile assembly:single`.
+5. As a result you should be able to access to a JAR file in the `target` folder.
+
+_The JAR compilation was executed with the Java openjdk version 17.0.11 and Apache Maven 3.9.6._
+
+## Usage
+    Validator [-h] <data> <shapes> <report>
+    *     <data>     RDF data
+    *     <shapes>   SHACL shapes
+    *     <report>   Validation report
+
+The fields marked with an \* are mandatory.
+## Options
+    -h, --help     Display help
+
+### Example
+```bash
+java -jar target/validator-0.0.1-SNAPSHOT-jar-with-dependencies.jar path/to/rdf_data.ttl path/to/shacl_shapes.ttl path/to/save/report.ttl
+```
+Apart from the report generated in the given directory the application gives some relevant information about the validation process.
+```
+Data graph size: 40
+Load time: 0.258
+Shapes graph size: 49
+Report graph size: 115
+Validation time: 0.039
+```
+Graph size is given in number of triples and time in seconds.
+
+## To create a Docker image
+The application can be compiled into a JAR within a Docker image by making use of the provided Dockerfile. \
+Type the command `docker build -t topbraid-cli-validator:latest .` to get a ready to use image.
+
+When creating a container from the just built image it will call `entrypoint.sh` by default which is a bash script that passes the arguments to a maven execute command. 
+
+Alternatively, you can customize the Dockerfile entrypoint to point to the compiled JAR by uncommenting the corresponding lines in the Dockerfile. 
+
+### Example
+To feed the app with data and shapes files you could configure a volume. The following listing is an example of how the docker image could be used. 
+```docker
+docker run -v $(pwd)/data:/data --rm topbraid-cli-validator:latest /data/example_data.ttl /data/example_shapes.ttl /data/example_report.ttl
+``` 

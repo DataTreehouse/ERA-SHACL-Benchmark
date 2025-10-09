@@ -1,0 +1,1147 @@
+@prefix ns1: <https://github.com/DataTreehouse/maplib#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:maplib:report> a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result <urn:maplib:tr_0>,
+        <urn:maplib:tr_1>,
+        <urn:maplib:tr_10>,
+        <urn:maplib:tr_100>,
+        <urn:maplib:tr_101>,
+        <urn:maplib:tr_102>,
+        <urn:maplib:tr_103>,
+        <urn:maplib:tr_104>,
+        <urn:maplib:tr_105>,
+        <urn:maplib:tr_106>,
+        <urn:maplib:tr_107>,
+        <urn:maplib:tr_108>,
+        <urn:maplib:tr_109>,
+        <urn:maplib:tr_11>,
+        <urn:maplib:tr_110>,
+        <urn:maplib:tr_111>,
+        <urn:maplib:tr_112>,
+        <urn:maplib:tr_113>,
+        <urn:maplib:tr_12>,
+        <urn:maplib:tr_13>,
+        <urn:maplib:tr_14>,
+        <urn:maplib:tr_15>,
+        <urn:maplib:tr_16>,
+        <urn:maplib:tr_17>,
+        <urn:maplib:tr_18>,
+        <urn:maplib:tr_19>,
+        <urn:maplib:tr_2>,
+        <urn:maplib:tr_20>,
+        <urn:maplib:tr_21>,
+        <urn:maplib:tr_22>,
+        <urn:maplib:tr_23>,
+        <urn:maplib:tr_24>,
+        <urn:maplib:tr_25>,
+        <urn:maplib:tr_26>,
+        <urn:maplib:tr_27>,
+        <urn:maplib:tr_28>,
+        <urn:maplib:tr_29>,
+        <urn:maplib:tr_3>,
+        <urn:maplib:tr_30>,
+        <urn:maplib:tr_31>,
+        <urn:maplib:tr_32>,
+        <urn:maplib:tr_33>,
+        <urn:maplib:tr_34>,
+        <urn:maplib:tr_35>,
+        <urn:maplib:tr_36>,
+        <urn:maplib:tr_37>,
+        <urn:maplib:tr_38>,
+        <urn:maplib:tr_39>,
+        <urn:maplib:tr_4>,
+        <urn:maplib:tr_40>,
+        <urn:maplib:tr_41>,
+        <urn:maplib:tr_42>,
+        <urn:maplib:tr_43>,
+        <urn:maplib:tr_44>,
+        <urn:maplib:tr_45>,
+        <urn:maplib:tr_46>,
+        <urn:maplib:tr_47>,
+        <urn:maplib:tr_48>,
+        <urn:maplib:tr_49>,
+        <urn:maplib:tr_5>,
+        <urn:maplib:tr_50>,
+        <urn:maplib:tr_51>,
+        <urn:maplib:tr_52>,
+        <urn:maplib:tr_53>,
+        <urn:maplib:tr_54>,
+        <urn:maplib:tr_55>,
+        <urn:maplib:tr_56>,
+        <urn:maplib:tr_57>,
+        <urn:maplib:tr_58>,
+        <urn:maplib:tr_59>,
+        <urn:maplib:tr_6>,
+        <urn:maplib:tr_60>,
+        <urn:maplib:tr_61>,
+        <urn:maplib:tr_62>,
+        <urn:maplib:tr_63>,
+        <urn:maplib:tr_64>,
+        <urn:maplib:tr_65>,
+        <urn:maplib:tr_66>,
+        <urn:maplib:tr_67>,
+        <urn:maplib:tr_68>,
+        <urn:maplib:tr_69>,
+        <urn:maplib:tr_7>,
+        <urn:maplib:tr_70>,
+        <urn:maplib:tr_71>,
+        <urn:maplib:tr_72>,
+        <urn:maplib:tr_73>,
+        <urn:maplib:tr_74>,
+        <urn:maplib:tr_75>,
+        <urn:maplib:tr_76>,
+        <urn:maplib:tr_77>,
+        <urn:maplib:tr_78>,
+        <urn:maplib:tr_79>,
+        <urn:maplib:tr_8>,
+        <urn:maplib:tr_80>,
+        <urn:maplib:tr_81>,
+        <urn:maplib:tr_82>,
+        <urn:maplib:tr_83>,
+        <urn:maplib:tr_84>,
+        <urn:maplib:tr_85>,
+        <urn:maplib:tr_86>,
+        <urn:maplib:tr_87>,
+        <urn:maplib:tr_88>,
+        <urn:maplib:tr_89>,
+        <urn:maplib:tr_9>,
+        <urn:maplib:tr_90>,
+        <urn:maplib:tr_91>,
+        <urn:maplib:tr_92>,
+        <urn:maplib:tr_93>,
+        <urn:maplib:tr_94>,
+        <urn:maplib:tr_95>,
+        <urn:maplib:tr_96>,
+        <urn:maplib:tr_97>,
+        <urn:maplib:tr_98>,
+        <urn:maplib:tr_99> .
+
+<urn:maplib:tr_0> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_1> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_10> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_100> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_101> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_102> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_103> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_104> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_105> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_106> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_107> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_108> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_109> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_11> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_110> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_111> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_112> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_113> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_12> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_13> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_14> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_15> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_16> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_17> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_18> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_19> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_2> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_20> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_21> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_22> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_23> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_24> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_25> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_26> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_27> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_28> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_29> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_3> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_30> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_31> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_32> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_33> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_34> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_35> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_36> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_37> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_38> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_39> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_4> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_40> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_41> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_42> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_43> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_44> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_45> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_46> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_47> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_48> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_49> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_5> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_50> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_51> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_52> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_53> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_54> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_55> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_56> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_57> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_58> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_59> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_6> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_60> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_61> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_62> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_63> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_64> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_65> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_66> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_67> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_68> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_69> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/21> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_7> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_70> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_71> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_72> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_73> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_74> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_75> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_76> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_77> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_78> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_79> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_8> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_80> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_81> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_82> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_83> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_84> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_85> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_86> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_87> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_88> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_89> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_9> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/36bf1461f295d432dd780fdc507133f908b7a1d4> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/2> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_90> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_91> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_92> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_93> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_94> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_95> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_96> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_97> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_98> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
+<urn:maplib:tr_99> a sh:ValidationResult ;
+    sh:focusNode <http://data.europa.eu/949/functionalInfrastructure/tracks/07946c41d18b51d16a9fa7013dc13d30e3374c39> ;
+    sh:resultPath <http://data.europa.eu/949/protectionLegacySystem> ;
+    sh:resultSeverity sh:Violation ;
+    sh:sourceConstraintComponent sh:SPARQLConstraintComponent ;
+    sh:sourceShape <http://data.europa.eu/949/shapes/trackShape> ;
+    sh:value <http://data.europa.eu/949/concepts/train-protection-legacy-systems/rinf/23> ;
+    ns1:resultConforms false .
+
